@@ -1,22 +1,22 @@
 # Scripts for Jetpack Compose
 
-![Main screen](/img/main-screen.png)
 
 Components and scripts that can be used on Android Compose projects
 
 ## Jetpack Compose
 
 ### Components
+
+<img src="/img/main-screen.png" alt="Main screen" width=400/>
+
 * ImageComp: Show image stored in app data, if file is not found show a placeholder
 * RowInfo: Multiple rows of text that contains bolded key and value, uses SingleRowInfo
 * RowMultipleInfo: A row that contains multiple bolded keys and values
 
 ### Dialog
-
-![List dialog](/img/list-dialog.png)
-![Loading dialog](/img/loading-dialog.png)
-![Radio dialog](/img/radio-dialog.png)
-![Text dialog](/img/text-dialog.png)
+| List dialog | Loading dialog | Radio dialog | Text dialog |
+|------------|-------------|-------------|-------------|
+|![List dialog](/img/list-dialog.png)|![Loading dialog](/img/loading-dialog.png)|![Radio dialog](/img/radio-dialog.png)|![Text dialog](/img/text-dialog.png)|
 
 * ListDialog: Shows lists of options which user select instantly, and return index of chosen element, -1 if dismissed
 * LoadingDialog: Simple loading screen with customizable text
