@@ -22,7 +22,6 @@ class ContextLauncher(private val context: Context) {
         startActivity(context, intent, null)
     }
 
-
     fun composeEmail(subject: String) {
         val emailArray = arrayOf("example@example.com")
         val intent = Intent(Intent.ACTION_SENDTO)
