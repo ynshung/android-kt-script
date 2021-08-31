@@ -1,5 +1,7 @@
 # Scripts for Jetpack Compose
 
+![Main screen](/img/main-screen.png)
+
 Components and scripts that can be used on Android Compose projects
 
 ## Jetpack Compose
@@ -10,6 +12,12 @@ Components and scripts that can be used on Android Compose projects
 * RowMultipleInfo: A row that contains multiple bolded keys and values
 
 ### Dialog
+
+![List dialog](/img/list-dialog.png)
+![Loading dialog](/img/loading-dialog.png)
+![Radio dialog](/img/radio-dialog.png)
+![Text dialog](/img/text-dialog.png)
+
 * ListDialog: Shows lists of options which user select instantly, and return index of chosen element, -1 if dismissed
 * LoadingDialog: Simple loading screen with customizable text
 * RadioDialog: Shows lists of options in radio form with confirm button, and return index of chosen element, -1 if dismissed
